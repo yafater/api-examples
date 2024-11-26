@@ -1,0 +1,25 @@
+version = 1
+
+[[analyzers]]
+name = "ruby"
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/yafater/api-examples"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "shell"
